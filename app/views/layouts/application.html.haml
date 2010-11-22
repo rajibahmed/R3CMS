@@ -11,14 +11,17 @@
     = csrf_meta_tag
   %body.two-col
     %div#container
-      %header= image_tag "logo.png" ,:alt=>"sample app" , :class=>"round"
-
+      %header
+        - logo = image_tag "logo.png" ,:alt=>"sample app" , :class=>"round"
+        = link_to logo, root_path
       %nav.round
         %ul
-          %li= link_to "Home",    :controller=>'pages',:action=>'home'
-          %li= link_to "Contact", :controller=>'pages',:action=>'contact'
-          %li= link_to "About",   :controller=>'pages',:action=>'about'
+          %li= link_to "Contact", contact_path
+          %li= link_to "About",   about_path
+          %li= link_to "Help",   help_path
 
+  
+      %div.clear-fix
 
       %section.round
         =yield
