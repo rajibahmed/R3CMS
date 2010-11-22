@@ -41,4 +41,7 @@ group :development, :test do
   gem 'faker'
   gem 'spork'
   gem 'capybara'
+  gem 'webrat'
+  gem 'cucumber'
+  gem 'cucumber-rails'
 end
