@@ -8,4 +8,9 @@ module ApplicationHelper
       @title
     end 
   end
+
+  def hello
+    #all the instance variables are available here
+    
+  end
 end

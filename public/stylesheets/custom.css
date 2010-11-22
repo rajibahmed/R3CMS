@@ -1,0 +1,30 @@
+/* line 1, sass/custom.sass */
+body {
+  background: #ccffff;
+}
+
+/* line 4, sass/custom.sass */
+header {
+  padding-top: 20px;
+}
+/* line 6, sass/custom.sass */
+header img {
+  padding: 1em;
+  background: white;
+}
+
+/* line 10, sass/custom.sass */
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+}
+/* line 15, sass/custom.sass */
+section h1 {
+  font-size: 200%;
+}
+
+/* line 18, sass/custom.sass */
+a {
+  color: #0099cc;
+}

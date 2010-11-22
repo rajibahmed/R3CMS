@@ -4,10 +4,21 @@
     %title= title
     = stylesheet_link_tag 'screen.css',:media => 'screen, projection'
     = stylesheet_link_tag 'print.css' ,:media => 'print'
+    = stylesheet_link_tag 'custom.css' ,:media => 'screen, projection'
     /[if lt IE 8]
       = stylesheet_link_tag 'ie.css', :media =>'screen, projection'
     = javascript_include_tag 'jquery.min'
     = csrf_meta_tag
   %body.two-col
     %div#container
-      =yield
+      %header= image_tag "logo.png" ,:alt=>"sample app" , :class=>"round"
+
+      %nav.round
+        %ul
+          %li= link_to "Home",    :controller=>'pages',:action=>'home'
+          %li= link_to "Contact", :controller=>'pages',:action=>'contact'
+          %li= link_to "About",   :controller=>'pages',:action=>'about'
+
+
+      %section.round
+        =yield

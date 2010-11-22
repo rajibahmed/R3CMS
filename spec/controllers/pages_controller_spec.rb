@@ -22,7 +22,7 @@ describe PagesController do
 
     it "should have right title" do
       get 'contact'
-      response.should have_selector('title','Contact Page')
+      response.should have_selector('title',:content=>'Contact Page')
     end
   end
   
