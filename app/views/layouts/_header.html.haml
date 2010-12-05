@@ -1,0 +1,10 @@
+  %body.two-col
+    %div#container
+      %header
+        - logo = image_tag "logo.png" ,:alt=>"sample app" , :class=>"round"
+        = link_to logo, root_path
+      %nav.round
+        %ul
+          %li= link_to "Home",    root_path 
+          %li= link_to "Help",    help_path
+          %li= link_to "Sign in",   "#"

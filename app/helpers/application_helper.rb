@@ -9,8 +9,5 @@ module ApplicationHelper
     end 
   end
 
-  def hello
-    #all the instance variables are available here
-    
-  end
+  
 end

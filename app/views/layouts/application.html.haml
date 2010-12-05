@@ -9,6 +9,7 @@
       = stylesheet_link_tag 'ie.css', :media =>'screen, projection'
     = javascript_include_tag 'jquery.min'
     = csrf_meta_tag
+
   %body.two-col
     %div#container
       %header
@@ -16,12 +17,19 @@
         = link_to logo, root_path
       %nav.round
         %ul
-          %li= link_to "Contact", contact_path
-          %li= link_to "About",   about_path
-          %li= link_to "Help",   help_path
-
+          %li= link_to "Home",    root_path 
+          %li= link_to "Help",    help_path
+          %li= link_to "Sign in",   "#"
   
-      %div.clear-fix
 
       %section.round
         =yield
+      
+      %footer
+        %nav.round
+          %ul
+            %li= link_to "Home", root_path
+            %li= link_to "About",   about_path
+            %li= link_to "Contact",  contact_path
+            %li= link_to "Help",  help_path
+

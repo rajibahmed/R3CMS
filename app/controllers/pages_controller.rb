@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
+  
+  helper_method :debug
   def home
     @title="Home"
   end

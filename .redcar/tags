@@ -1,14 +1,23 @@
-1290394481
+1291572401
 Application	/home/rajib/Sites/rails_apps/R3CMS/config/application.rb	  class Application 
 ApplicationController	/home/rajib/Sites/rails_apps/R3CMS/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/rajib/Sites/rails_apps/R3CMS/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/home/rajib/Sites/rails_apps/R3CMS/test/performance/browsing_test.rb	class BrowsingTest 
+InstanceMethods	/home/rajib/Sites/rails_apps/R3CMS/spec/spec_helper.rb	    module InstanceMethods
+IntegrationExampleGroup	/home/rajib/Sites/rails_apps/R3CMS/spec/spec_helper.rb	  module IntegrationExampleGroup
 PagesController	/home/rajib/Sites/rails_apps/R3CMS/app/controllers/pages_controller.rb	class PagesController 
 R3CMS	/home/rajib/Sites/rails_apps/R3CMS/config/application.rb	module R3CMS
+Rails	/home/rajib/Sites/rails_apps/R3CMS/spec/spec_helper.rb	module RSpec::Rails
 TestCase	/home/rajib/Sites/rails_apps/R3CMS/test/test_helper.rb	class ActiveSupport::TestCase
+UsersController	/home/rajib/Sites/rails_apps/R3CMS/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	/home/rajib/Sites/rails_apps/R3CMS/app/helpers/users_helper.rb	module UsersHelper
 about	/home/rajib/Sites/rails_apps/R3CMS/app/controllers/pages_controller.rb	  def about
+app	/home/rajib/Sites/rails_apps/R3CMS/spec/spec_helper.rb	      def app
 contact	/home/rajib/Sites/rails_apps/R3CMS/app/controllers/pages_controller.rb	  def contact
-hello	/home/rajib/Sites/rails_apps/R3CMS/app/helpers/application_helper.rb	  def hello
+debug	/home/rajib/Sites/rails_apps/R3CMS/app/controllers/application_controller.rb	  def debug
+help	/home/rajib/Sites/rails_apps/R3CMS/app/controllers/pages_controller.rb	  def help
 home	/home/rajib/Sites/rails_apps/R3CMS/app/controllers/pages_controller.rb	  def home
+last_response	/home/rajib/Sites/rails_apps/R3CMS/spec/spec_helper.rb	      def last_response
+new	/home/rajib/Sites/rails_apps/R3CMS/app/controllers/users_controller.rb	  def new
 test_homepage	/home/rajib/Sites/rails_apps/R3CMS/test/performance/browsing_test.rb	  def test_homepage
 title	/home/rajib/Sites/rails_apps/R3CMS/app/helpers/application_helper.rb	  def title
